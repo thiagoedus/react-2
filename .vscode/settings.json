@@ -1,4 +1,9 @@
 {
   "prettier.configPath": "./.prettierrc.js",
   "python.defaultInterpreterPath": "./venv/bin/python",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.ts": "explicit"
+  }
 }
